@@ -3,6 +3,10 @@
 在《女神异闻录5 皇家版》简体中文版的对话与选项文本里追加四种符号，让「哪个选项加分、哪个是答案、
 哪个是告白」一眼可见。纯数据 Mod，不改存档、不动 exe。
 
+[![演示视频：P5RMod 揭露正确选项、五维和人物好感度](docs/images/video-cover.jpg)](https://www.bilibili.com/video/BV1RXsU6tEdy/)
+
+> **演示视频**：[《P5RMod 揭露正确选项、五维和人物好感度》](https://www.bilibili.com/video/BV1RXsU6tEdy/) · 8 分 53 秒 · Bilibili（点封面直接播放）
+
 > **配套工具**：[P5R-Stats-Overlay](https://github.com/BHSY-wc/P5R-Stats-Overlay)
 > —— 五维与 Coop 好感的实时悬浮面板，直读游戏内存、不用装 Mod、不用重启。
 > 这个 Mod 告诉你该选哪个，那个面板告诉你还差多少。
