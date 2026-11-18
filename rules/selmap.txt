@@ -1,0 +1,92 @@
+=== EVENT_DATA/SCRIPT/E600/E695_001.BF
+### E695_001.BF
+  PROC m_question  SEL#2 (SEL_002_0_0) options=3
+    opt0: ★加点x1  "挑战吧"
+    opt1:         "没有兴趣"
+    opt2:         "感觉胃会被撑坏……"
+    => 最佳选项 opt0
+=== FIELD/NPC/CORP017.BF
+### CORP017.BF
+  PROC SUB_TALK_COOP_HIFUMI  SEL#78 (SEL_COOP_CHECK_3_5) options=3
+    opt0:         "搭话"
+    opt1:         "和一二三的关系是……"
+    => 最佳选项 opt0
+  PROC SUB_TALK_COOP_HIFUMI  SEL#77 (SEL_COOP_CHECK) options=3
+    opt0:         "陪她度过"
+    opt1:         "和一二三的关系是……"
+    => 最佳选项 opt0
+  PROC SUB_PRE_COOP  SEL#9 (SEL_C17_PREOPEN_01_01) options=2
+    opt0:         "在教堂下将棋？"
+    => 最佳选项 opt0
+  PROC SUB_PRE_COOP  SEL#16 (SEL_C17_PREOPEN_10_02) options=2
+    opt0:         "拜托她进行指导"
+    => 最佳选项 opt0
+  PROC SUB_COOP_QUEST  SEL#77 (SEL_COOP_CHECK) options=3
+    opt0:         "陪她度过"
+    opt1:         "和一二三的关系是……"
+    => 最佳选项 opt0
+  PROC SUB_TALK_COOP_EVT  SEL#88 (SEL_C17_YES_08_01) options=3
+    opt0: ★加点x1  "尽全力上吧"
+    opt1:         "有自信吗？"
+    => 最佳选项 opt0
+  PROC SUB_COOP_SPOT_EVT  SEL#100 (SEL_C17_SPOT_01_02) options=2
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    => 最佳选项 opt0
+  PROC SUB_COOP_SPOT_EVT  SEL#103 (SEL_C17_SPOT_02_02) options=2
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    => 最佳选项 opt0
+  PROC SUB_COOP_SPOT_EVT  SEL#106 (SEL_C17_SPOT_03_02) options=2
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    => 最佳选项 opt0
+  PROC SUB_COOP_SPOT_EVT  SEL#109 (SEL_C17_SPOT_04_02) options=2
+    opt0:         "邀请"
+    opt0:         "邀请"
+    opt0:         "邀请"
+    => 最佳选项 opt0
+  PROC SUB_COOP_SPOT_EVT  SEL#112 (SEL_C17_SPOT_05_02) options=2
+    opt0:         "邀请"
+    opt0:         "邀请"
+    => 最佳选项 opt0
+  PROC SUB_COOP_SPOT_EVT  SEL#115 (SEL_C17_SPOT_06_02) options=2
+    opt0:         "邀请"
+    => 最佳选项 opt0
+  PROC MAIN_BYE_GREET_SCR  SEL#157 (SEL_C17_BYEGREET_00_01_5) options=3
+    opt0:         "我走了"
+    opt1:         "明天加油咯"
+    opt0:         "我走了"
+    opt1:         "明天加油咯"
+    opt0:         "我走了"
+    opt1:         "明天加油咯"
+    opt0:         "我走了"
+    opt1:         "明天加油咯"
+    => 最佳选项 opt0
+  PROC MAIN_BYE_GREET_SCR  SEL#165 (SEL_C17_BYEGREET_01_01_5) options=3
+    opt0:         "我会给你加油的"
+    opt1:         "你很努力呢"
+    opt0:         "我会给你加油的"
+    opt1:         "你很努力呢"
+    opt0:         "我会给你加油的"
+    opt1:         "你很努力呢"
+    => 最佳选项 opt0
+  PROC MAIN_BYE_GREET_SCR  SEL#141 (SEL_C17_BYEGREET_00_01) options=3
+    opt0:         "我走了"
+    opt1:         "明天加油咯"
+    opt0:         "我走了"
+    opt1:         "明天加油咯"
+    => 最佳选项 opt0
+  PROC MAIN_BYE_GREET_SCR  SEL#149 (SEL_C17_BYEGREET_01_01) options=3
+    opt0:         "我会给你加油的"
+    opt1:         "你很努力呢"
+    => 最佳选项 opt0

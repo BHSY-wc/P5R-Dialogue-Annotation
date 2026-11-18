@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>BmdTool</AssemblyName>
+    <NoWarn>CS0168;CS0219</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AtlusScriptLibrary">
+      <HintPath>D:/downlode/P5RMod/ReLoad2/Mods/reloaded.universal.fileemulationframework.bmd/AtlusScriptLibrary.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

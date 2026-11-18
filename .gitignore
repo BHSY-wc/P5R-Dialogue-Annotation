@@ -1,0 +1,9 @@
+# 编译产物
+bin/
+obj/
+*.user
+*.suo
+
+# 中间数据（解包的游戏文件、导出 dump）
+_work/
+*.tmp

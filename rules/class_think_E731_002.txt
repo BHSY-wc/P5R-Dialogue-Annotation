@@ -1,0 +1,37 @@
+# 课堂「追加思考」正确答案 —— E731_002.BF
+# 判定依据：反编译出的控制流（if (varX == k) 即正确选项分支）+ 该分支的反应台词；
+# 与 biligame《P5R/课堂问答与考试》快查表逐条吻合。
+#
+# 格式：对话框名|选项索引(0起)|符号
+# 前 20 条：脚本里真正被 SEL 指令引用的选择框
+THINK_1_SEL_05|0|★
+THINK_2_SEL_05|2|★
+THINK_1_SEL_01|1|★
+THINK_2_SEL_01|1|★
+THINK_3_SEL_01|2|★
+THINK_1_SEL_0523_03|2|★
+THINK_2_SEL_0523_05|1|★
+THINK_3_SEL_0523_07|1|★
+THINK_1_SEL_03|1|★
+THINK_2_SEL_03|1|★
+THINK_3_SEL_03|1|★
+THINK_1_SEL_04|2|★
+THINK_2_SEL_04|1|★
+THINK_3_SEL_04|2|★
+THINK_1_SEL_0124_03|1|★
+THINK_2_SEL_0124_05|2|★
+THINK_3_SEL_0124_07|2|★
+THINK_1_SEL_0711_03|1|★
+THINK_2_SEL_0711_05|2|★
+THINK_3_SEL_0711_07|2|★
+# 后 9 条：本文件里没有 SEL 指令引用（同内容另一套编号，属遗留副本），
+# 仍按反应台词标注；若将来被启用也不会有歧义。
+THINK_1_SEL_00|2|★
+THINK_2_SEL_00|1|★
+THINK_3_SEL_00|1|★
+THINK_0124_SEL_00|2|★
+THINK_0124_2_SEL_00|1|★
+THINK_0124_3_SEL_00|1|★
+THINK_1_SEL_02|1|★
+THINK_2_SEL_02|1|★
+THINK_3_SEL_02|0|★

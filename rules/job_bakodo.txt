@@ -1,0 +1,17 @@
+# 777 便利店打工「找条形码」正确答案 —— E762_001.BF
+# 每件商品的正确选项在 SUB_BAKODO_naiyou() 里写死（sVar5），商品是随机抽的，答案不随机。
+# 交叉验证：与 MND_KADAI_01..12「条形码印在……旁边」的提示文案逐条吻合。
+#
+# 格式：对话框名|选项索引(0起)|符号
+SEL_Bakodo_01|0|★
+SEL_Bakodo_02|1|★
+SEL_Bakodo_03|2|★
+SEL_Bakodo_04|0|★
+SEL_Bakodo_05|1|★
+SEL_Bakodo_06|2|★
+SEL_Bakodo_07|1|★
+SEL_Bakodo_08|2|★
+SEL_Bakodo_09|0|★
+SEL_Bakodo_10|0|★
+SEL_Bakodo_11|2|★
+SEL_Bakodo_12|1|★
